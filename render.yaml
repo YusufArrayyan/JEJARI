@@ -1,0 +1,44 @@
+# Blueprint Render untuk JEJARI (situs statis Vite + React).
+# Render Dashboard → New → Blueprint → pilih repo ini.
+services:
+  - type: web
+    name: jejari
+    runtime: static
+    branch: main
+    autoDeploy: true
+    buildCommand: npm ci && npm run build
+    staticPublishPath: ./dist
+    pullRequestPreviewsEnabled: false
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+    headers:
+      # Aset ber-hash dari Vite aman di-cache lama.
+      - path: /assets/*
+        name: Cache-Control
+        value: public, max-age=31536000, immutable
+      - path: /media/*
+        name: Cache-Control
+        value: public, max-age=604800
+      - path: /brand/*
+        name: Cache-Control
+        value: public, max-age=604800
+      # index.html selalu diperiksa ulang agar versi baru langsung tampil.
+      - path: /index.html
+        name: Cache-Control
+        value: no-cache
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin
+      - path: /*
+        name: X-Frame-Options
+        value: SAMEORIGIN
+    routes:
+      # Aplikasi memakai HashRouter (/#/p/...), jadi URL QR tetap aman.
+      # Rewrite ini hanya jaring pengaman untuk alamat tanpa tanda pagar.
+      - type: rewrite
+        source: /*
+        destination: /index.html
