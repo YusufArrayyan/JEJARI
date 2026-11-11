@@ -1,0 +1,95 @@
+1
+00:00:00,500 --> 00:00:06,990
+Ini JEJARI, kanal informasi layanan publik dalam bahasa isyarat.
+
+2
+00:00:07,090 --> 00:00:14,830
+Setiap pengumuman diubah menjadi satu halaman berbahasa isyarat yang dibuka lewat kode QR.
+
+3
+00:00:15,980 --> 00:00:24,490
+Indonesia memiliki sekitar 500 juru bahasa isyarat untuk 1,92 juta penyandang Tuli.
+
+4
+00:00:24,590 --> 00:00:32,379
+Artinya, 1 juru bahasa isyarat untuk 3.840 warga Tuli.
+
+5
+00:00:32,480 --> 00:00:39,019
+Akibatnya, banyak pengumuman layanan publik tidak sampai kepada mereka.
+
+6
+00:00:40,170 --> 00:00:49,010
+JEJARI bekerja dalam empat tahap: naskah, terjemahan, gerbang mutu, dan publikasi.
+
+7
+00:00:49,110 --> 00:00:54,180
+Mari ikuti satu pengumuman dari awal sampai akhir.
+
+8
+00:00:55,330 --> 00:01:04,390
+Tahap pertama. Admin instansi, misalnya Dukcapil, mengunggah naskah pengumuman.
+
+9
+00:01:04,489 --> 00:01:11,770
+Isinya judul, kategori layanan, tanggal berlaku, dan isi naskah.
+
+10
+00:01:11,870 --> 00:01:19,060
+Begitu dikirim, sistem langsung menugaskan kader Tuli yang antreannya paling sedikit.
+
+11
+00:01:20,210 --> 00:01:31,860
+Tahap kedua. Kader Tuli melihat daftar tugas yang sudah diurutkan. Revisi dan tanggal berlaku terdekat didahulukan.
+
+12
+00:01:31,960 --> 00:01:41,790
+Di ruang kerja, kader menulis versi bahasa mudah dengan ikon, mengunggah video BISINDO, lalu membuat takarir.
+
+13
+00:01:41,890 --> 00:01:47,350
+Setelah ketiganya lengkap, naskah dikirim ke gerbang mutu.
+
+14
+00:01:48,500 --> 00:02:00,920
+Tahap ketiga adalah gerbang mutu. Penilai Tuli menonton video, lalu memilih paham atau belum paham, tanpa melihat skor penilai lain.
+
+15
+00:02:01,020 --> 00:02:12,290
+Video terbit bila minimal 80% penilai paham. Jika belum, video kembali ke kader beserta catatan revisi.
+
+16
+00:02:12,390 --> 00:02:20,850
+Koordinator dapat mengatur jumlah penilai dan ambang ini, sekaligus melihat seberapa ketat aturannya.
+
+17
+00:02:22,000 --> 00:02:30,700
+Tahap keempat, publikasi. Setelah lolos, halaman publik terbit dengan alamat tetap.
+
+18
+00:02:30,800 --> 00:02:40,240
+Admin instansi mengunduh kode QR dalam format PNG atau SVG, atau langsung mencetak poster siap tempel.
+
+19
+00:02:41,390 --> 00:02:47,279
+Di loket layanan, warga Tuli cukup memindai kode QR.
+
+20
+00:02:47,380 --> 00:03:01,119
+Tanpa akun dan tanpa aplikasi tambahan, halaman langsung terbuka: video BISINDO bertakarir, ringkasan bahasa mudah dengan ikon, dan tombol paham atau belum paham.
+
+21
+00:03:01,220 --> 00:03:06,870
+Video baru diunduh saat diputar, jadi hemat kuota.
+
+22
+00:03:08,019 --> 00:03:20,529
+Jika informasi berubah, admin cukup memperbarui pengumuman. Versi baru melewati alur yang sama, dan kode QR di poster tidak berubah.
+
+23
+00:03:20,630 --> 00:03:31,299
+Seluruh capaian terpantau di dasbor koordinator: jumlah pengumuman, keterpahaman, waktu produksi, dan jumlah kader.
+
+24
+00:03:32,450 --> 00:03:40,450
+JEJARI. Informasi publik yang dikurasi komunitas Tuli, untuk warga Tuli.

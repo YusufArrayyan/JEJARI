@@ -35,6 +35,16 @@ Prototipe MVP ini dibangun dari PRD JEJARI dan esai LOKASI 2026 (Muhammad Yusuf 
 - Target WCAG 2.2 AA: kontras ≥ 4,5:1, fokus terlihat, tombol ≥ 48 px, bisa dipakai dengan keyboard, menghormati `prefers-reduced-motion`
 - Rincian: [`DESIGN.md`](DESIGN.md) dan [`PRODUCT.md`](PRODUCT.md)
 
+## Dokumen pendukung
+
+| Berkas | Isi |
+| --- | --- |
+| [`docs/Panduan-Penggunaan-JEJARI.pdf`](docs/Panduan-Penggunaan-JEJARI.pdf) | Panduan visual 9 halaman untuk keempat peran |
+| [`docs/Video-Alur-Kerja-JEJARI.mp4`](docs/Video-Alur-Kerja-JEJARI.mp4) | Video bernarasi tentang alur kerja, dengan takarir tertanam (+ berkas `.srt`) |
+| [`docs/mockup/`](docs/mockup) | Mockup tampilan PC dan mobile untuk esai |
+
+![Mockup JEJARI](docs/mockup/mockup-utama.png)
+
 ## Menjalankan
 
 ```bash

@@ -526,6 +526,8 @@
 @media (max-width: 900px) {
   .shell {
     grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    align-content: start;
   }
   .side {
     display: none;
@@ -2140,4 +2142,17 @@ a.cell-title:hover {
     border: 1px solid #ccc;
     box-shadow: none;
   }
+}
+
+/* Cegah item grid melebar melebihi kolom (QR SVG di layar sempit) */
+.detail-grid > *,
+.ws-grid > *,
+.form-grid > *,
+.gate-grid > * {
+  min-width: 0;
+}
+.poster-qr svg {
+  display: block;
+  width: 100%;
+  height: auto;
 }
